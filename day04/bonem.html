@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>    //1.화면에 다음과 같이 반복해서 출력 
+                //@@@ 반복
+                //2.prompt('당신이 주로가는 포털사이트는 ') 인경우 naver.이면
+                //www.naver.com 자동이동 다음이면 www.daum.net 자동이동으로 이동
+                //3.out2.js 에 여행하다() 함수,쉬다()함수를 정의하여 html에 링크하여 사용
+                //4. 당신은 자바 프로그래머인가요?라고 connfirm()으로 확인후 true이면
+                //"훌륭한 웹프로그머시군요" false이면 "다른언어를 사용하시는 군요!"출력
+            site = prompt("당신이 주로 가는 포털사이트는?")
+            if (site == '네이버') {
+                location.href = "http://www.naver.com";
+            } else if (site == '다음') {
+                location.href = "http://www.daum.net";
+            } else {site == '구글'
+                location.href = "http://www.google.com";
+            }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
